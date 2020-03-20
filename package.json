@@ -1,5 +1,5 @@
 {
-  "name": "Corona info",
+  "name": "Corona_info",
   "version": "1.0.0",
   "description": "Corona info scraping",
   "main": "index.js",
