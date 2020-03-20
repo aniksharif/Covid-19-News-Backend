@@ -4,7 +4,7 @@ const port = process.env.PORT || 8080;
 const request = require('request');
 const cheerio = require("cheerio");
 
-app.get('/coronaviruses', (req, res) =>
+app.get('/allinfo', (req, res) =>
 
     request("https://www.worldometers.info/coronavirus/", function (error, response, body) {
         if (error) {
@@ -41,7 +41,7 @@ app.get('/coronaviruses', (req, res) =>
 
 
 )
-app.get('/coronaviruses/global', (req, res) =>
+app.get('/globalinfo', (req, res) =>
 
     request("https://www.worldometers.info/coronavirus/", function (error, response, body) {
         if (error) {
