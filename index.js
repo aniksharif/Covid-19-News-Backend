@@ -1,10 +1,11 @@
 const express = require('express')
 const app = express()
+var cors = require('cors');
 const port = process.env.PORT || 8080;
 const request = require('request');
 const cheerio = require("cheerio");
 const R = require('ramda');
-
+app.use(cors());
 app.get('/allinfo', (req, res) =>
 
     request("https://www.worldometers.info/coronavirus/", function (error, response, body) {
