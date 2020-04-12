@@ -4,6 +4,8 @@ Backend code of covid-19 news update site
 
 https://coronaupdate.spb.org.bd/
 
+Frontend code link-https://github.com/aniksharif/Covid-19-News-Frontend
+
 ### Installation
 
 
